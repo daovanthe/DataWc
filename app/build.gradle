@@ -48,7 +48,7 @@ publishing {
         bar(MavenPublication) {
             groupId 'th'
             artifactId 'datawc'
-            version '1.0.1'
+            version '1.0.6'
             artifact(sourceJar)
             artifact("$buildDir/outputs/aar/app-debug.aar")
         }
