@@ -103,4 +103,20 @@ public class Fixtures {
     public void setAwayId(String awayId) {
         this.awayId = awayId;
     }
+
+    @Override
+    public String toString() {
+        return "Fixtures{" +
+                "id='" + id + '\'' +
+                ", date='" + date + '\'' +
+                ", time='" + time + '\'' +
+                ", round='" + round + '\'' +
+                ", homeName='" + homeName + '\'' +
+                ", awayName='" + awayName + '\'' +
+                ", location='" + location + '\'' +
+                ", leagueId='" + leagueId + '\'' +
+                ", homeId='" + homeId + '\'' +
+                ", awayId='" + awayId + '\'' +
+                '}';
+    }
 }

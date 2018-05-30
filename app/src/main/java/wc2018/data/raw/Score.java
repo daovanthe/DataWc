@@ -158,4 +158,26 @@ public class Score {
     public void setEvents(String events) {
         this.events = events;
     }
+
+    @Override
+    public String toString() {
+        return "Score{" +
+                "id='" + id + '\'' +
+                ", homeName='" + homeName + '\'' +
+                ", awayName='" + awayName + '\'' +
+                ", score='" + score + '\'' +
+                ", htScore='" + htScore + '\'' +
+                ", ftScore='" + ftScore + '\'' +
+                ", etScore='" + etScore + '\'' +
+                ", time='" + time + '\'' +
+                ", leagueId='" + leagueId + '\'' +
+                ", leagueName='" + leagueName + '\'' +
+                ", added='" + added + '\'' +
+                ", lastChanged='" + lastChanged + '\'' +
+                ", status='" + status + '\'' +
+                ", homeId='" + homeId + '\'' +
+                ", awayId='" + awayId + '\'' +
+                ", events='" + events + '\'' +
+                '}';
+    }
 }

@@ -67,4 +67,16 @@ public class Legues {
     public void setScores(String scores) {
         this.scores = scores;
     }
+
+    @Override
+    public String toString() {
+        return "Legues{" +
+                "leagueId='" + leagueId + '\'' +
+                ", leagueName='" + leagueName + '\'' +
+                ", countryId='" + countryId + '\'' +
+                ", countryName='" + countryName + '\'' +
+                ", fixures='" + fixures + '\'' +
+                ", scores='" + scores + '\'' +
+                '}';
+    }
 }
